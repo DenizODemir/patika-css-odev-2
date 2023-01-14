@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa</title>
+
+    <style>
+        /* Burası gövdeyi stillendirir */
+        body {
+            text-align: center;
+            margin: auto;
+        }
+
+        .kutu {
+            background-color: #f0f0f0;
+            margin-top: 25px;
+            padding: 10px;
+
+        }
+
+        .yazi-girdisi {
+            width: 400px;
+        }
+        .tablo{
+            width: 100%;
+
+        }
+        .birinci-td {
+            background-color: #16A085;
+            width: 40%;
+        }
+        .ikinci-td {
+            background-color: #00D490;
+            width: 20%;
+        }
+        .ucuncu-td {
+            background-color: #20c997;
+            width: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="google.jpeg" alt="Logo" />
+
+    <!-- Burası kutu classı ile biçimlendirme yapar. -->
+    <div class="kutu">
+
+        <div>Search the web using Google!</div>
+        <input type="text" class="yazi-girdisi">
+        <br>
+        <!--Burası arama butonunun yer aldığı kısım. -->
+        
+        <button type="button">Google Search</button>
+        <button type="button">Im feelling lucky</button>
+    </div>
+    <div>
+        <!-- Burası tablo kısmını biçimlendirir. -->
+        <table class="tablo">
+            <tr>
+                <!---Tablo içerisini biçimlendirdiğim kısım-->
+                <td class="birinci-td">
+                    Special Searches <br>
+                <a href="Stanford Search"> Stanford Search</a> <br>
+                <a href="linux Search">linux Search</a>
+                </td>
+                
+                <td class="ikinci-td">
+                    <a href="https://www.patika.dev/tr">Help</a> <br>
+                    <a href="https://www.patika.dev/tr">About Google</a> <br>
+                    <a href="https://www.patika.dev/tr">Company İnfo</a> <br>
+                    <a href="https://www.patika.dev/tr">Google logos</a> <br>
+                </td>
+                <td class="ucuncu-td">
+                    Get Google! <br>
+                    uptades monthly: <br>
+                    <input type="email" placeholder="your e-mail"> <br>
+                    <button type="button">Subscribe</button> <a href="">Archive</a>
+                </td>
+            </tr>
+        </table>  
+    </div>
+    <!--burası son paragraf-->
+    <p>Copyright ©1998 Google Inc.</p>
+</body>
+
+</html>
